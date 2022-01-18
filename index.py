@@ -30,5 +30,5 @@ def ma_fonction(id):
     return json.dumps({'error':str(data[0])})
   conn.close()
 
-if __name__ == '__main__':
- app.run(debug=True)
+# if __name__ == '__main__':
+#  app.run(debug=True)
